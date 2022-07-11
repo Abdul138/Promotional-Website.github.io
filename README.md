@@ -1,6 +1,6 @@
 # Promotional-Who Am I
-Partial Example
 
+Checklist
 - [] Nationality: Nigerian
 - [] Ethnicity
 - [] Country 
@@ -9,3 +9,5 @@ Partial Example
 - [] Birth place is Lagos
 - [] Full Name is AbdulHaady Ameer Oludare
 - [] Cultural Celebrations : Eid
+
+
