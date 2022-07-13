@@ -7,11 +7,110 @@
     <meta name="author" content="AbdulHaady"> 
     <meta name="Discription" content="Promotional Webpage webpage using HTML">
 
-    <title>Liverpool</title>
+    <title >Liverpool</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @font-face{
+            font-family: "Albertus";
+            src: url(albr55w.ttf);
+        }
+        #History{
+            border: 4px solid black;
+            font-family: Albertus;
+            color: black;
+            padding:10px;
+            width: 65%;
+            background-color: #FFFFFF;    
+        }
+        #HistoryTitle{
+            position: relative;
+            left: 150px;
+            /* width: 30%  */
+            font-family: 'Albertus';
+            color: black;
+        }
+        #header{
+            text-align: Center;
+            width: 50% 
+        }
+        #about{
+            font-size: 18px;
+        }
+        #sideBar{
+            width:30%;
+            right:3px;
+            top:40px;
+            position:absolute;
+        }
+        #titles{
+            color: black;
+            font-size: 195%;
+            /*   right:2px; */
+        }
+        ul{
+            list-style-image: url(../Image/cup.jpg);
+            font-size:20px;
+            color:whitesmoke;
+            padding-left:7px;
+        }
+        ul li{
+            background-color:#FF4B57;
+            margin:5px;
+            list-style-position:inside; 
+            padding: 5px; 
+        }
+        #video{
+            text-align: Center;
+            width: 50%             
+        }
+    </style>  
+
 </head>
+   
+
+<body style="background-color: #00E3D8">
+    <div style="font-size:20px" id = "header">
+        <h1 style="font-family: Albertus">Liverpool</h1>
+        <blockquote cite="https://en.wikipedia.org/wiki/Premier_League"></blockquote>
+        <p id = "about">Liverpool is a top teir profesional soccer club in England. They compete in the <em><a href="https://en.wikipedia.org/wiki/Premier_League" target="_blank">premier league</a></em>  with other top teir teams. They were founded in 1892 and have played its home games at Anfield.</p>
+    </div>
+    <!--What is Liverpool Section-->
+   <div>
+        <h1 id = "HistoryTitle">Liverpools History</h1>
+        <blockquote cite="https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"></blockquote>
+        <blockquote cite="https://en.wikipedia.org/wiki/Football_League_Second_Division/"></blockquote>
+        <blockquote cite="https://en.wikipedia.org/wiki/UEFA_Champions_League"></blockquote>
+        <div id = "History">        
+            <p>Liverpool F.C was funded in 1892 and joined the football league in 1893. During the Tom Watson (manager) era, Liverpool had it's first successful era
+            which they had won two championships. However they would be relegated in later years to the <em><a href="https://en.wikipedia.org/wiki/Football_League_Second_Division" target="_blank">second division.</a></em> 
+            <br> In 1959 Bill Shankly was appointed as manager and would be later known as Liverpool's greatest manager. 
+            He helped the club back into the first division and they won multiple league championships and four <em><a href="https://en.wikipedia.org/wiki/UEFA_Champions_League" target="_blank">European Cups.</a></em>.
+            In 1985 there was a disaster in the <em><a href="https://en.wikipedia.org/wiki/Heysel_Stadium_disaster" target="_blank">Heysel Stadium</a></em> which all English clubs were banned from European competitions until 1991. However they were still
+            able to win three more league titles in this period.</p>
+        </div>
+
+        <br>
+        <div id="sideBar">
+            <h2 id="titles">Titles Liverpools Has Won.</h2>
+            <ul>
+                <li>19 League Titles</li>
+                <li>9 League Cups</li>
+                <li>8 FA Cups</li>
+                <li>6 European Cups</li>
+                <li>4 UEFA Super Cups</li>
+                <li>3 UEFA Cups</li>
+                <li>1 FIFA Club World Cup</li>            
+            </ul>
+        </div>
+        <div id = "video">
+            <h1>Some Of Liverpools Best Games</h1>
+            <p>Against Newcastle in 1996</p>
+            <a href="https://www.youtube.com/watch?v=Us9tcKJUG7U"target="_blank"></a>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Us9tcKJUG7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
 
-<body>
-    
+    </div>
 </body>
 </html>

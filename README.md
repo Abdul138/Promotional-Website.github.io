@@ -1,13 +1,18 @@
 # Promotional-Who Am I
 
 Checklist
-- [] Nationality: Nigerian
+- [x] Nationality: Nigerian
 - [] Ethnicity
-- [] Country 
-- [] Flag
-- [] Language: Yoruba
-- [] Birth place is Lagos
-- [] Full Name is AbdulHaady Ameer Oludare
-- [] Cultural Celebrations : Eid
+- [x] Country 
+- [] Country Image
+- [x] Flag
+- [x] Language: Yoruba
+- [x] Birth place is Lagos
+- [x] Full Name is AbdulHaady  Oludare
+- [x] Cultural Celebrations : Eid
+- [] Who I am Promoting
+- [] What they have achieved
+- [] Why I am promoting them
+
 
 
