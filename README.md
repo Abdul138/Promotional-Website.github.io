@@ -10,9 +10,9 @@ Checklist
 - [x] Birth place is Lagos
 - [x] Full Name is AbdulHaady  Oludare
 - [x] Cultural Celebrations : Eid
-- [] Who I am Promoting
-- [] What they have achieved
-- [] Why I am promoting them
+- [x] Who I am Promoting
+- [x] What they have achieved
+
 
 
 
